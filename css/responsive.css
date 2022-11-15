@@ -1,0 +1,182 @@
+@media only screen and (max-width: 1070px) {
+    header{
+    padding: 15px 15px;
+    height: 50px;
+    }
+    a{
+        font-size: 12px;
+        color: #707070;
+    }
+    .mySlider-info h1{
+        font-size: 65px;
+    }
+    .next{
+        right: 45px;
+    }
+    .prev{
+        left: 45px;
+        border-radius: 3px 0 0 3px;
+    }
+    .services-main-div{
+        display: flex;
+        justify-content: center;
+        padding: 40px 10px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .services-anotation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .services-anotation div{
+        text-align: center;
+        width: 100%;
+    }
+    .services-anotation div h4{
+        font-size: 26px;
+    }
+    .services-anotation div h2{
+        font-size: 36px;
+    }
+    .services-anotation div p{
+        font-size: 20px;
+    }
+    .services-card-main-div{
+        width: 100%;
+    }
+    .video-main-div h4{
+        font-size: 26px;
+    }
+    .video-main-div h2{
+        font-size: 36px;
+    }
+    .offers-main-div h4{
+        font-size: 26px;
+    }
+    .offers-main-div h2{
+        font-size: 36px;
+    }
+    .rewiews-title-div h4{
+        font-size: 26px;
+    }
+    .rewiews-title-div h2{
+        font-size: 36px;
+    }
+    .book-div h2{
+        font-weight: bold;
+        color: #4343439b;
+    }
+    .tourist-countries-div h4{
+        font-size: 26px;
+    }
+    .tourist-countries-div h2{
+        font-size: 36px;
+    }
+    .userDiv p{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .footer-container {
+        padding:30px 0px;
+    }
+    .footer-main-info{
+        width: 95%;
+    }
+    .tours-cart{
+        width: 100%;
+    }
+    .tours-cart img{
+        width: 100%;
+    }
+    .tours-cart p{
+        padding-top: 10px;
+    }
+    .subscribe-main-div h2{
+        font-size: 20px;
+    }
+    .raiting{
+        padding: 55px 0px;
+        width: 50%;
+    }
+    .raiting p{
+        font-size: 12px;
+    }
+    .raiting h2{
+        font-size: 16px;
+    }
+    .test{
+        flex-wrap: wrap;
+    }
+    .user-div-main{
+        align-items: center;
+    }
+    .userDiv{
+        width: 180px;
+        height: 250px;
+        margin: 10px;
+    }
+    .userDiv p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .services-anotation div h4{
+        font-size: 12px;
+    }
+    .services-anotation div h2{
+        font-size: 20px;
+    }
+    .video-main-div h4{
+        font-size: 12px;
+    }
+    .video-main-div h2{
+        font-size: 20px;
+    }
+    .offers-main-div h4{
+        font-size: 12px;
+    }
+    .offers-main-div h2{
+        font-size: 20px;
+    }
+    .rewiews-title-div h4{
+        font-size: 12px;
+    }
+    .rewiews-title-div h2{
+        font-size: 20px;
+    }
+    .tourist-countries-div h4{
+        font-size: 12px;
+    }
+    .tourist-countries-div h2{
+        font-size: 20px;
+    }
+    .subscribe-div input{
+        width: 200px;
+        height: 40px;
+    }
+    .subscribe-div button{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .book-div{
+        height: 300px;
+    }
+    .footer-input input{
+        width: 200px;
+    }
+    .footer-input button{
+        width: 50px;
+    }
+    .footer-info h3{
+        font-size: 12px;
+    }
+    .footer-info p{
+        font-size: 10px;
+    }
+
+}
