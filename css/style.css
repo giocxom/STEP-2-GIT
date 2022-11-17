@@ -1,35 +1,9 @@
 /* HEADER START */
-body{
+a
+{text-decoration: none;
+    color: black;
 }
-/* header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 95px;
-    height: 80px;
-} */
-/* header nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
-ul{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
-a{
-    font-size: 16px;
-    color: #707070;
-}
-li:hover{
-    transform: scale(1.05);
-} */
-a{text-decoration: none;
-    color: black;}
-    
+
 header {
     align-items: center;
     padding: 15px 95px;
@@ -37,7 +11,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    }
+}
     
 #brand {
       display: flex;
@@ -54,7 +28,7 @@ ul {
       align-items: center;
       justify-content: space-evenly;
       width: 100%;
-   }
+}
     
 ul li {
       padding: 5px;
@@ -68,6 +42,7 @@ ul li a {
 ul li:hover{
     transform: scale(1.05);
 }
+/* MOBILE MENU START */
 .mobile-menu {
       display: none;
       position: absolute;
@@ -136,7 +111,7 @@ ul li:hover{
 }
 
 
-/*  */
+/* MOBILE MENU END */
 h4{
     font-size: 16px;
 }
@@ -156,7 +131,7 @@ button{
     outline: none;
 }
 /* HEADER END */
-/*  */
+/* FOR ALL */
 .flex-center-center{
     display: flex;
     justify-content: center;
@@ -173,7 +148,7 @@ button{
     justify-content: center;
     align-items: center;
 }
-/*  */
+/* FOR ALL */
 /* SLIDER SECTION START */
 .slider-container{
     max-width: 100%;
@@ -220,9 +195,6 @@ button{
 }
 .mySlider-info{
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -234,19 +206,16 @@ button{
 .mySlider-info h4{
     margin-top: 35px;
 }
-.mySlider-info img{
-    position: relative;
-    width: 40%;
-    height: 30%;
-    display: none;
+.mySlider-info-price{
+    width: 50%;
+    height: 130px;
+    background: url(../images/Layer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
 }
-.mySlider-info p{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.mySlider-info-price p{
     color: #006CD1;
-
 }
 /* SLIDER SECTION END */
 /* HOT SERVICES START */
@@ -582,9 +551,6 @@ box-shadow: 0px 0px 5px 0px rgba(112,112,112,1);
 /* DESTINATIONS END */
 /* FOOTER START */
 .footer-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     padding: 50px 90px;
     width: 100%;
@@ -632,9 +598,6 @@ box-shadow: 0px 0px 5px 0px rgba(112,112,112,1);
 }
 
 .footer-annotation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
     border-top: solid 1px #707070;
     font-size: 20px;

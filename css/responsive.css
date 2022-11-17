@@ -8,7 +8,18 @@
         color: #707070;
     }
     .mySlider-info h1{
-        font-size: 65px;
+        font-size: 45px;
+    }
+    .mySlider{
+        width: 100%;
+        height: 45vh;
+    }
+    .mySlider img{
+        height: 45vh;
+    }
+    .mySlider-info-price{
+        width: 100%;
+        height: 70px;
     }
     .next{
         right: 45px;
@@ -78,6 +89,17 @@
     .userDiv p{
         font-size: 18px;
     }
+    .active img{
+        width: 300px;
+    }
+    .active .services-card-info p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .active .services-card-info{
+        width: 50%;
+    }
+    
 }
 @media only screen and (max-width: 768px) {
     .footer-container {
@@ -121,6 +143,35 @@
     }
     .userDiv p{
         font-size: 14px;
+    }
+    .mySlider{
+        width: 100%;
+        height: 45vh;
+    }
+    .mySlider img{
+        height: 45vh;
+    }
+    .mySlider-info h1{
+        font-size: 30px;
+    }
+    .mySlider-info h4{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .mySlider-info-price p{
+        font-size: 10px;
+        color: #006CD1;
+    }
+    .mySlider-info-price{
+        width: 100%;
+        height: 70px;
+    }
+    .prev, .next{
+        padding: 5px;
+    }
+    .user-div-main{
+        width: 100%;
+        height: 100%;
     }
 }
 @media only screen and (max-width: 450px) {
@@ -177,6 +228,30 @@
     }
     .footer-info p{
         font-size: 10px;
+    }
+    .mySlider{
+        height: 25vh;
+    }
+    .mySlider img{
+        height: 25vh;
+    }
+    .mySlider-info h1{
+        font-size: 15px;
+    }
+    .mySlider-info h4{
+        font-size: 7px;
+    }
+    .mySlider-info-price{
+        height: 30px;
+    }
+    .mySlider-info-price p{
+        font-size: 10px;
+    }
+    .next{
+        right: 15px;
+    }
+    .prev{
+        left: 15px;
     }
 
 }

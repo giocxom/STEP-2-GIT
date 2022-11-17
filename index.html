@@ -12,21 +12,9 @@
 <body>
     <!-- here we start navigation -->
     <header>
-        <!-- <img src="images/Logo.png" alt="logo">
-        <h2> <a href="pages/fakeApi.html">OUR GUIDES</a></h2>
-        <nav class="">
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="">OUR SERVICES</a></li>
-                <li><a href="">TOUR PACKAGE</a></li>
-            </ul> -->
-
-
             <div id="brand"><img src="images/Logo.png" alt=""></div>
         <nav>
           <ul>
-            
             <li><a href="pages/fakeApi.html">API</a></li>
             <li><a href="#">HOME</a></li>
             <li><a href="#">ABOUT US</a></li>
@@ -46,34 +34,25 @@
               <li><a href="">TOUR PACKAGE</a></li>
             </ul>
           </div>
-
-
-
-
-
-
-
-
-
-
-
     </header>
     <!-- Lets create slider after header -->
     <section>
         <div class="slider-container">
             <div class="mySlider">
-                <div class="mySlider-info">
-                    <img src="images/Layer.png" alt="Layer">
-                    <p>From $199/Person</p>
+                <div class="mySlider-info flex-column-center-center">
+                    <div class="mySlider-info-price flex-column-center-center">
+                        <p>From $199/Person</p>
+                    </div>
                     <h1>Discover Greece</h1>
                     <h4>TRAVEL WITH UNIQUE EXPERIENCE</h4>
                 </div>
                 <img src="images/Banner-1.jpg" alt="banner">
             </div>
             <div class="mySlider">
-                <div class="mySlider-info">
-                    <img src="images/Layer.png" alt="Layer">
-                    <p>From $399/Person</p>
+                <div class="mySlider-info flex-column-center-center">
+                    <div class="mySlider-info-price flex-column-center-center">
+                        <p>From $199/Person</p>
+                    </div>
                     <h1>Discover India</h1>
                     <h4>TRAVEL WITH UNIQUE EXPERIENCE</h4>
                 </div>
@@ -258,7 +237,7 @@
         </div>
     </section>
     <footer>
-        <div class="footer-container">
+        <div class="footer-container flex-center-center">
             <div class="footer-main-info"></div>
             <div class="footer-input flex-center-center">
                 <label for="email">Subscribe to our newsletter</label>
@@ -267,13 +246,10 @@
                 <button>Go!</button>
              </div>
         </div>
-        <div class="footer-annotation"><p>trourism©All Rights Reserved</p></div>
+        <div class="footer-annotation flex-center-center"><p>trourism©All Rights Reserved</p></div>
     </footer>
-    <script src="script.js"></script>
-    <script>
-        function toggleMobileMenu(menu) {
-            menu.classList.toggle('open');
-        }
-        </script>
+    <script src="JS/Slider.js"></script>
+    <script src="JS/Card.js"></script>
+    <script src="JS/Footer.js"></script>
 </body>
 </html>
