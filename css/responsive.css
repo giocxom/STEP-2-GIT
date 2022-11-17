@@ -217,6 +217,9 @@
     .book-div{
         height: 300px;
     }
+    .footer-input{
+        width: 320px;
+    }
     .footer-input input{
         width: 200px;
     }
