@@ -237,7 +237,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 75%;
+    width: 60%;
 }
 .services-card{
     display: flex;
